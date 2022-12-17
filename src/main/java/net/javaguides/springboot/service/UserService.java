@@ -4,6 +4,7 @@ import net.javaguides.springboot.dto.UserDto;
 import net.javaguides.springboot.entity.User;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface UserService {
 
@@ -16,4 +17,5 @@ public interface UserService {
     UserDto updateUser(User user);
 
     void deleteUser(Long userId);
+
 }
